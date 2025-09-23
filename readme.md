@@ -13,6 +13,8 @@ depois exclui e só deixa esse arquivo: "typescript": "ts-node",
 pra rodar o coderunner localmente é assim: "typescript": "npx ts-node --files",
 npx tsc --init  para gerar um tsconfig.json válido e funcionou (mantendo as configurações do professor também).
 
+"clear && npx ts-node --files --transpile-only" - Ele limpa antes de rodar no caso no linux. Está na pasta .vscode
+
 npx tsc -w  = Pra visualizar localmente
 
 sudo apt install nodejs npm - pra instalar o node junto com npm

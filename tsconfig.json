@@ -10,6 +10,8 @@
     "module": "nodenext",
     "target": "ESNext", 
     "types": [],
+    "esModuleInterop": true,  // importar modulos ou seja, 1 ex cria uma função e importa
+
     // For nodejs:
     "lib": ["ESNext", "DOM"],
     // "types": ["node"],
@@ -39,5 +41,8 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  "include": [
+    "./src"       // Pra incluir todos os diretorios e arquivos em um único direitoio
+  ]
 }
