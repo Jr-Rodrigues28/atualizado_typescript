@@ -1,0 +1,25 @@
+{
+	"gostosos": [
+		"bosta liquida",
+		{}
+	],
+	"name": "cursojstypescript",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"biome": "node --watch --watch-preserve-output --watch-path=. biome-dev.mjs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.4",
+		"@types/node": "^24.3.3",
+		"ts-node": "^10.9.2",
+		"tslib": "^2.8.1",
+		"typescript": "^5.9.2"
+	}
+}
