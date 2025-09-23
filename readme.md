@@ -17,6 +17,11 @@ npx tsc -w  = Pra visualizar localmente
 
 sudo apt install nodejs npm - pra instalar o node junto com npm
 
+npx tsc --init - é pra configurar o json do TS
+
+npx tsc - compilar
+
 ## Rodar o Biome
 
 `node --watch --watch-preserve-output --watch-path=. biome-dev.mjs` ou `npm run biome`
+`ctrl + c` - interrompe o biome
