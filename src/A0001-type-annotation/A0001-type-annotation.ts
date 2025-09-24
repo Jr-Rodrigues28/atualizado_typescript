@@ -15,7 +15,7 @@ let arrayDeNumeros2: number[] = [1, 2, 3];
 let arrayDeSttings: Array<string> = ["a", "b", "c"];
 let arrayDeStrings2: string[] = ["a", "b", "c"];
 
-// Objetos
+// Objetos                                      // a ? é pra dizer que é opcional
 let pessoa: { nome: string; idade: number; adulto?: boolean } = {
 	idade: 41,
 	nome: "Junior",
