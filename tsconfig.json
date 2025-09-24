@@ -1,48 +1,48 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
-  "compilerOptions": {
-    // File Layout
-    // "rootDir": "./src",
-    "outDir": "./dist",  // direciona o JS na pasta criada dist
+	// Visit https://aka.ms/tsconfig to read more about this file
+	"compilerOptions": {
+		// File Layout
+		// "rootDir": "./src",
+		"outDir": "./dist", // direciona o JS na pasta criada dist
 
-    // Environment Settings
-    // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "ESNext", 
-    "types": [],
-    "esModuleInterop": true,  // importar modulos ou seja, 1 ex cria uma função e importa
+		// Environment Settings
+		// See also https://aka.ms/tsconfig/module
+		"module": "nodenext",
+		"target": "ESNext",
+		"types": [],
+		"esModuleInterop": true, // importar modulos ou seja, 1 ex cria uma função e importa
 
-    // For nodejs:
-    "lib": ["ESNext", "DOM"],
-    // "types": ["node"],
-    // and npm install -D @types/node
+		// For nodejs:
+		"lib": ["ESNext", "DOM"],
+		// "types": ["node"],
+		// and npm install -D @types/node
 
-    // Other Outputs
-    "sourceMap": true, // cria os map
-    "declaration": false, // Não cria arquivos .D
-    "declarationMap": false, // Não cria o .d.map do ts
+		// Other Outputs
+		"sourceMap": true, // cria os map
+		"declaration": false, // Não cria arquivos .D
+		"declarationMap": false, // Não cria o .d.map do ts
 
-    // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+		// Stricter Typechecking Options
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
 
-    // Style Options
-    // "noImplicitReturns": true,
-    // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "noPropertyAccessFromIndexSignature": true,
+		// Style Options
+		// "noImplicitReturns": true,
+		// "noImplicitOverride": true,
+		// "noUnusedLocals": true,
+		// "noUnusedParameters": true,
+		// "noFallthroughCasesInSwitch": true,
+		// "noPropertyAccessFromIndexSignature": true,
 
-    // Recommended Options
-    "strict": true, // habilita comportamentos e verificação de tipos
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true,
-  },
-  "include": [
-    "./src"       // Pra incluir todos os diretorios e arquivos em um único direitoio
-  ]
+		// Recommended Options
+		"strict": true, // habilita comportamentos e verificação de tipos
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"noUncheckedSideEffectImports": true,
+		"moduleDetection": "force",
+		"skipLibCheck": true
+	},
+	"include": [
+		"./src" // Pra incluir todos os diretorios e arquivos em um único direitoio
+	]
 }
