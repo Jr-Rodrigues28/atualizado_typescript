@@ -27,3 +27,7 @@ npx tsc - compilar
 
 `node --watch --watch-preserve-output --watch-path=. biome-dev.mjs` ou `npm run biome`
 `ctrl + c` - interrompe o biome
+
+
+## Type Annotation
+É tudo que está depois dos 2 pontos, refere ao tipo: string, boolean, number, etc.
