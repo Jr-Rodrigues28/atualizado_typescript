@@ -43,6 +43,6 @@
 		"skipLibCheck": true
 	},
 	"include": [
-		"./src" // Pra incluir todos os diretorios e arquivos em um único direitoio
+		"./src" // Pra incluir todos os diretorios e arquivos em um único direitorio
 	]
 }

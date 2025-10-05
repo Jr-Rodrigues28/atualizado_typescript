@@ -14,7 +14,7 @@ const pessoa = {
 	},
 };
 
-semRetorno("Junior", "Roddrigues");
+semRetorno("Junior", "Rodrigues");
 pessoa.exibirNome();
 
 // quando usa export estamos em module
